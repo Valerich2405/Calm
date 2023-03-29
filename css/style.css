@@ -17,6 +17,10 @@ ul{
     list-style: none;
 }
 .header{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
     background-color: #343434;
     padding-top: 33px 0 37px;
 }
@@ -42,7 +46,6 @@ ul{
     line-height: 42px; 
 }
 .logo{
-    display: flex;
     margin-left: 40px;
 }
 .headline{
@@ -58,6 +61,7 @@ ul{
     font-family: 'Habibi', serif;
     text-transform: uppercase;
     margin-bottom: 0;
+    margin-top: 70px;
     padding-bottom: 0;
     font-style: normal;
     font-weight: 400;
@@ -205,4 +209,257 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 
     color: #242323;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.services{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.services h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242323;
+}
+.services-title,
+.gallery-title,
+.reviews-title,
+.contact-title{
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+
+    align-items: center;
+    text-align: center;
+
+    color: #242323;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.services-list1{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.services-list1 image{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.services-list1 p{
+    max-width: 250px;
+}
+.service-center1{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.services-list2{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.services-list2 image{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.services-list2 p{
+    max-width: 250px;
+}
+.service-center2{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.gallery-images{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+.gallery-img1{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.gallery-img2{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.gallery-img3{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.reviews-list1{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.reviews-list2{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 220px;
+}
+.reviews-list1 p{
+    max-width: 280px;
+}
+.reviews-list2 p{
+    max-width: 280px;
+}
+.contact-information{
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+}
+.contact-information a{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    color: #ababab;
+}
+.phone{
+    margin-left: 90px;
+}
+.email{
+    margin-right: 70px;
+}
+.contact-form{
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    margin-left: 300px;
+    margin-right: 290px;
+    background-color: #eeeeee;
+    border-radius: 15px;
+}
+.contact-form h3{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #373B4D;
+}
+.contact-line1,
+.contact-line2
+{
+    display: flex;
+    text-align: center;
+}
+.contact-name{
+   margin-top: 20px;
+  margin-left: 25px;
+}
+.contact-email{
+  margin-top: 20px;
+  margin-left: 315px;
+}
+.contact-line1 input{
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    height: 35px;
+    width: 295px;
+    top: 23px;
+    padding-left: 10px;
+    border-radius: 7px;
+}
+.contact-line2 input{
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    height: 35px;
+    width: 295px;
+    top: 23px;
+    padding-left: 10px;
+    border-radius: 7px;
+}
+.contact-name-input{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.contact-email-input{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.contact-line3 input{
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    height: 35px;
+    width: 650px;
+    top: 23px;
+    padding-left: 10px;
+    border-radius: 7px;
+}
+.contact-tel{
+    margin-top: 20px;
+  margin-left: 25px;
+}
+.contact-tel-input{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.contact-line4 input{
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    height: 150px;
+    width: 650px;
+    top: 23px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    border-radius: 7px;
+}
+.contact-add{
+    margin-top: 20px;
+  margin-left: 25px;
+}
+.contact-add-input{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.contact-form button{
+    background-color: transparent;
+  border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+
+display: flex;
+align-items: center;
+
+margin-top: 14px;
+margin-left: 300px;
+
+color: #242323;
+}
+.footer{
+    background-color: #343434;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.container10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #F5F5F5;
 }
