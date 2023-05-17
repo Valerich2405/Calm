@@ -3,8 +3,7 @@ a{
     color: white;
 }
 body{
-    border-left: 90px solid #343434;
-    border-right: 90px solid #343434;
+    min-width: 1300px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -43,7 +42,14 @@ ul{
     padding-right: 70px;
 }
 .menu-link{
-    line-height: 42px; 
+    font-size: 16px;
+    line-height: 42px;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.menu-link:hover {
+    transform: scale(2);
+    box-shadow: 0 0 50px rgb(0, 0, 0);
 }
 .logo{
     margin-left: 40px;
@@ -362,13 +368,13 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 .contact-email{
   margin-top: 20px;
-  margin-left: 315px;
+  margin-left: 405px;
 }
 .contact-line1 input{
     background: #FFFFFF;
     border: 2px solid #FFFFFF;
     height: 35px;
-    width: 295px;
+    width: 380px;
     top: 23px;
     padding-left: 10px;
     border-radius: 7px;
@@ -377,7 +383,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     background: #FFFFFF;
     border: 2px solid #FFFFFF;
     height: 35px;
-    width: 295px;
+    width: 380px;
     top: 23px;
     padding-left: 10px;
     border-radius: 7px;
@@ -394,7 +400,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     background: #FFFFFF;
     border: 2px solid #FFFFFF;
     height: 35px;
-    width: 650px;
+    width: 820px;
     top: 23px;
     padding-left: 10px;
     border-radius: 7px;
@@ -411,7 +417,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     background: #FFFFFF;
     border: 2px solid #FFFFFF;
     height: 150px;
-    width: 650px;
+    width: 820px;
     top: 23px;
     padding-left: 10px;
     padding-top: 0px;
@@ -427,22 +433,29 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     margin-top: 10px;
     margin-left: 25px;
 }
+.button-animation {
+    transition: all 0.3s ease;
+  }
+
+  .button-animation:hover {
+    transform: scale(1.2);
+  }
 .contact-form button{
     background-color: transparent;
-  border: none;
+    border: none;
     font-family: 'Open Sans';
     font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
 
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 
-margin-top: 14px;
-margin-left: 300px;
+    margin-top: 25px;
+    margin-left: 390px;
 
-color: #242323;
+    color: #242323;
 }
 .footer{
     background-color: #343434;

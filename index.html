@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1000">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,400&display=swap" rel="stylesheet">
@@ -174,22 +175,22 @@
                     <a class="email" href="mailto:S.Zelyunko_FIT_2_21_B_d@knute.edu.ua">S.Zelyunko_FIT_2_21_B_d@knute.edu.ua</a>
                 </div>
                 <div class="contact-form">
-                    <form action="#">
+                    <form id="myForm" action="mailto:stas240723@ukr.net" method="post">
                         <div class="contact-line1">
                             <h3 class="contact-name">Ім'я*</h3>
                             <h3 class="contact-email">Ел. пошта*</h3>           
                         </div>
                         <div class="contact-line2">
-                            <input class="contact-name-input" type="text" placeholder="Введіть ім'я">
-                            <input class="contact-email-input" type="mailto" placeholder="Введіть ел. пошту">
+                            <input class="contact-name-input" type="text" name="Ім'я" placeholder="Введіть ім'я" required>
+                            <input class="contact-email-input" type="mailto" name="Ел. пошта" placeholder="Введіть ел. пошту" required>
                         </div>
                         <div class="contact-line3">
                             <h3 class="contact-tel">Телефон*</h3>
-                            <input class="contact-tel-input" type="text" placeholder="Введіть телефон">
+                            <input class="contact-tel-input" type="text" name="Телефон" placeholder="Введіть телефон" required>
                         </div>
                         <div class="contact-line4">
                             <h3 class="contact-add">Додатково</h3>
-                            <input class="contact-add-input" type="text" placeholder="Введіть повідомлення">
+                            <input class="contact-add-input" type="text" name="Повідомлення" placeholder="Введіть повідомлення">
                         </div>
                         <button type="submit">Надіслати</button>
                     </form>
@@ -202,5 +203,6 @@
             <p>© 2023 Calm. Всі права захищені.</p>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
